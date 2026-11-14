@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+node_modules/
+dist/
+backend/estatepredict.db
+backend/artifacts/*.joblib
+backend/artifacts/*.json
+!backend/artifacts/.gitkeep
+
+# Logs and local system files
+*.log
+.DS_Store
+*.sqlite
+*.sqlite3
